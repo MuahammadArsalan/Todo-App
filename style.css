@@ -14,11 +14,14 @@ html{
     position: relative;
     top: 15vh;
     background-color: rgb(147, 159, 152);
-    width: 30vw;
+    width: 40vw;
+    /* width: auto; */
     margin: auto;
     padding: 10px;
     text-align: center;
     height: auto;
+    opacity: 0.8;
+    border-radius: 30px;
 
 }
 
@@ -61,4 +64,27 @@ color: rgb(229, 0, 0);
 }.edit:hover{
 color: rgb(21, 134, 142);
 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#foot{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+.para{
+    font-size: 0.8rem;
+}
+
+#git{
+    font-size: 30px;
+    font-weight: bold;
 }
