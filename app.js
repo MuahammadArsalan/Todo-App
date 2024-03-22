@@ -19,6 +19,10 @@ function render(){
 
 
 function addTodo(){
+  if(todoInput.value===''){
+    alert('Enter your task to add')
+  }else{
+    
   arr.push(todoInput.value);
   console.log(arr);
 ol.innerHTML = '';
@@ -33,6 +37,7 @@ for (let i =0 ;i<arr.length;i++){
   todoInput.value = '';
 }
 
+}
 
 function deleteTodo(index){
 
